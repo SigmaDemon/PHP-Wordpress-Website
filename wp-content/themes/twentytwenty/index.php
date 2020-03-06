@@ -14,8 +14,19 @@
  * @since 1.0.0
  */
 
-get_header();
-?>
+get_header(); ?>
+
+<div class="full-banner-wrapper"> 
+
+	<div class="full-banner">
+	   <h1><span>Build Your Dream Home</span></h1>
+	   <p><span>We are the number 1 contractor serving your neighborhood</span>          </p>
+	   <a href="#">Free Estimate</a>
+	</div>
+	
+</div>
+
+
 
 <main id="site-content" role="main">
 

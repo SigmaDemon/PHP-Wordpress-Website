@@ -112,6 +112,15 @@ blockquote::after {
 /*	1. Document Setup
 /* -------------------------------------------------------------------------- */
 
+/* HOMEPAGE - My changes */
+.home div.full-banner-wrapper {width: 100%; text-align: center; margin-bottom: 30px;}
+.home div.full-banner { min-height: 400px; background: url('images/banner.jpg') 0 -120px fixed; }
+.home div.full-banner h1 { text-transform: uppercase; font-size: 3em; padding-top: 50px; color: #000; text-shadow: 2px 2px 5px #fff;}
+.home div.full-banner p { font-size: 1.1em; margin-bottom: 50px; color: #000; }
+.home div.full-banner p span { background: rgba(255, 255, 255, 0.8); padding: 15px 25px;}
+.home div.full-banner a { display: inline-block; padding: 25px 50px; margin-bottom: 50px; border-radius: 6px; background: #bb0000; font-size: 1.5em; font-weight: bold; color: #fff; }
+.home div.full-banner a:hover { background: #d20000; }
+.home .site-content { padding-top: 0; }
 
 html {
 	font-size: 62.5%; /* 1rem = 10px */
@@ -6366,4 +6375,9 @@ a.to-the-top > * {
 	.wp-block-pullquote.is-style-solid-color.alignright::before {
 		top: 0;
 	}
+}
+
+/* My Edits */
+body {
+	font-family: Times New Roman;
 }
